@@ -1,15 +1,19 @@
+# This file is for unifying the coding style for different editors and IDEs
+# editorconfig.org
+
 root = true
 
 [*]
 end_of_line = lf
 insert_final_newline = true
-
 charset = utf-8
 
-[*.jade]
-indent_style = space
-indent_size = 2
-
-[*.js]
+# Default spacing
+[*.{js,less,css,html}]
 indent_style = space
 indent_size = 4
+
+# Modern JS spacing
+[*.{jade,babel.js}]
+indent_style = space
+indent_size = 2
