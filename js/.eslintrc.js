@@ -1,30 +1,39 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "jquery": true
+    'env': {
+        'browser': true,
+        'commonjs': true,
+        'node': true,
+        'es6': true,
+        'jquery': true
     },
-    "extends": "eslint:recommended",
-    "rules": {
-        "indent": [
-            "error",
+    'globals': {
+        'NODE_ENV': true,
+        'Modernizr': true
+    },
+    'extends': 'eslint:recommended',
+    'rules': {
+        'indent': [
+            'error',
             4
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
+        'eol-last': [ // Always have End Of Line at the end of a file
+            'error',
+            'always'
         ],
-        "quotes": [
-            "error",
-            "single"
+        'linebreak-style': [
+            'error',
+            'unix'
         ],
-        "semi": [
-            "error",
-            "always"
+        'quotes': [
+            'error',
+            'single'
+        ],
+        'semi': [
+            'error',
+            'always'
         ]
     },
-    "parserOptions": {
-        "sourceType": "module"
+    'parserOptions': {
+        'sourceType': 'module'
     }
 };
