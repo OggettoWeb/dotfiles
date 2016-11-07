@@ -83,9 +83,6 @@ module.exports = {
         // 'selector-id-pattern': '', TODO: pattern for camelCase ids
         'selector-max-compound-selectors': 3,
         'selector-no-empty': true,
-        'selector-no-qualifying-type': [true, {
-            'ignore': ['attribute']
-        }],
         'selector-no-vendor-prefix': true,
         'selector-pseudo-class-case': 'lower',
         'selector-pseudo-class-no-unknown': true,
@@ -109,7 +106,6 @@ module.exports = {
             'except': ['after-single-line-comment']
         }],
 
-
         // Media feature
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
@@ -124,7 +120,6 @@ module.exports = {
         'media-query-list-comma-space-before': 'never',
 
         // At-rule
-        'at-rule-empty-line-before': 'always',
         'at-rule-name-case': 'lower',
         'at-rule-name-space-after': 'always-single-line',
         'at-rule-no-unknown': true,
