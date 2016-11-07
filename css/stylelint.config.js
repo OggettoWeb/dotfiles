@@ -143,7 +143,6 @@ module.exports = {
         'no-duplicate-selectors': true,
         'no-eol-whitespace': true,
         'no-extra-semicolons': true,
-        'no-missing-end-of-source-newline': true,
         'no-unknown-animations': true
     }
 };
