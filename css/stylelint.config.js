@@ -45,7 +45,9 @@ module.exports = {
         // Property
         'shorthand-property-no-redundant-values': true,
         'property-case': 'lower',
-        'property-no-unknown': true,
+        'property-no-unknown': [true, {
+            'severity': 'warning'
+        }],
         'property-no-vendor-prefix': true,
 
         // Declaration

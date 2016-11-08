@@ -27,3 +27,5 @@ ESLint может сам фиксить мелкие косяки (табы вм
 Настройки хранятся в файле [`stylelint.config.js`](css/stylelint.config.js). Для игнорирования файлов можно создать `.stylelintignore`.
 
 Для работы нужно установить `stylelint` глобально и включить проверку в PHPStorm аналогично ESLint.
+
+Автоматически форматировать код, согласно правилам из конфига Stylelint может [https://github.com/morishitter/stylefmt](https://github.com/morishitter/stylefmt).
