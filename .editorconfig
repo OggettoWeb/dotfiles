@@ -14,8 +14,3 @@ trim_trailing_whitespace = true
 [*.{js,less,css,html}]
 indent_style = space
 indent_size = 4
-
-# Modern JS spacing
-[*.{jade,babel.js}]
-indent_style = space
-# indent_size = 2 # TODO: fix eslint for this
