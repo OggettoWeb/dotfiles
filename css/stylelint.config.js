@@ -136,7 +136,6 @@ module.exports = {
         'indentation': 4,
         'max-empty-lines': 2,
         'max-nesting-depth': 4,
-        'no-descending-specificity': true,
         'no-duplicate-selectors': true,
         'no-eol-whitespace': true,
         'no-extra-semicolons': true,
