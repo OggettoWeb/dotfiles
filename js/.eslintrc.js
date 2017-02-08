@@ -8,13 +8,17 @@ module.exports = {
     },
     'globals': {
         'NODE_ENV': true,
-        'Modernizr': true
+        'Modernizr': true,
+        'Translator': true
     },
     'extends': 'eslint:recommended',
     'rules': {
         'indent': [
             'error',
             4
+        ],
+        'prefer-const': [
+            'error'
         ],
         'eol-last': [ // Always have End Of Line at the end of a file
             'error',
